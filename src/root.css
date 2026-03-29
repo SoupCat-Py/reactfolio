@@ -1,0 +1,106 @@
+:root {
+    --bg: #152435;
+    --bg-light: #1D2C3E;
+    --bg-border: #27313E;
+    --primary: #DBC13B;
+    --text: #B7B7B7;
+
+    --size-h1: 60px;
+    --size-h2: 42px;
+    --size-body: 18px;
+    --size-small: 12px;
+
+    --card-radius: 30px;
+
+    --font-header: "Google Sans Flex", "serif";
+    --font-body: "Sora";
+}
+
+/* layout */
+.d-flex {display: flex;}
+.flex-col {flex-direction: column;}
+.flex-row {flex-direction: row;}
+.justify-center {justify-content: center;}
+.justify-start {justify-content: flex-start;}
+.justify-end {justify-content: flex-end;}
+.align-center {align-items: center;}
+.align-start {align-items: flex-start}
+.align-end {align-items: flex-end;}
+.display-grid {display: grid;}
+
+/* spacing */
+.p0 {padding: 0;}
+.p025 {padding: 0.25rem;}
+.p025 {padding: 0.5rem;}
+.p1 {padding: 1rem;}
+.p2 {padding: 2rem;}
+.g0 {gap: 0;}
+.g025 {gap: 0.25rem;}
+.g5 {gap: 0.5rem;}
+.g1 {gap: 1rem;}
+.g2 {gap: 2rem;}
+.m0 {margin: 0;}
+
+/* fonts */
+h1, h2, .h1, .h2 {font-family: var(--font-header), "serif";}
+h1, .h1 {
+    font-size: var(--size-h1);
+    font-weight: 700;
+    font-variation-settings: "wdth" 151;
+}
+h2, .h2 {
+    font-size: var(--size-h2);
+    font-variation-settings: "wdth" 125;
+}
+p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
+.body {
+    font-size: var(--size-body);
+}
+.small {
+    font-size: var(--size-small);
+}
+
+/* colors */
+.bg-bg {background-color: var(--bg);}
+.bg-primary {background-color: var(--primary);}
+.color-bg {color: var(--bg);}
+.color-primary {color: var(--primary);}
+.color-text {color: var(--text);}
+.border-primary {border: 2px solid var(--primary);}
+.border-bg {border: 2px solid var(--bg);}
+
+/* buttons */
+.btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: var(--size-small);
+    transition: all 200ms ease, transform 100ms ease;
+    width: max-content;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--bg);
+    border: 2px solid var(--primary);
+    transform: scale(1);
+}
+.btn-primary:hover {
+    transform: scale(calc(0.67 * 1.67));
+}
+.btn-primary:active {
+    transform: scale(1);
+}
+.btn-norm {
+    background-color: var(--bg);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+.btn-norm:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+    border: 2px solid var(--primary);
+}
+
+/* radii */
+.rounded-full {border-radius: 99vh;}
+.rounded-card {border-radius: var(--card-radius);}
