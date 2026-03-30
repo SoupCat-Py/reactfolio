@@ -64,13 +64,52 @@ p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
 
 /* colors */
 .bg-bg {background-color: var(--bg);}
+.bg-light {background-color: var(--bg-light);}
 .bg-primary {background-color: var(--primary);}
 .color-bg {color: var(--bg);}
 .color-primary {color: var(--primary);}
 .color-text {color: var(--text);}
 .border-primary {border: 2px solid var(--primary);}
 .border-bg {border: 2px solid var(--bg);}
+.border-light {border: 2px solid var(--bg-border);}
 
-/* radii */
+/* misc */
 .radius-full {border-radius: 99vh;}
 .radius-card {border-radius: var(--card-radius);}
+.nodeco {text-decoration: none;}
+
+/* buttons */
+.btn, button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: var(--size-body);
+    transition: all 200ms ease, transform 100ms ease;
+    width: max-content;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 99rem;
+}
+.btn img {
+    height: var(--size-body);
+}
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--bg);
+    border: 2px solid var(--primary);
+    transform: scale(1);
+}
+.btn-primary:hover {
+    transform: scale(calc(0.67 * 1.67));
+}
+.btn-primary:active {
+    transform: scale(1);
+}
+.btn-norm {
+    background-color: var(--bg);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+.btn-norm:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+    border: 2px solid var(--primary);
+}
