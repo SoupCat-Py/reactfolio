@@ -4,6 +4,14 @@
 .body {
     max-width: 800px;
 }
+.link {
+    text-decoration: none;
+    color: var(--secondary);
+}
+.link:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
 .image {
     height: 12rem;
     aspect-ratio: 1;

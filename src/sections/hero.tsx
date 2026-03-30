@@ -14,7 +14,11 @@ export default function Hero() {
                 </div>
             </div>
 
-            <span className={`body color-text ${styles.body}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam</span>
+            <span className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school student, currently learning frontend web development with&nbsp;
+                <a href="https://react.dev" target="_blank" className={styles.link}>React</a>.
+                Before this, I used to make simple desktop apps in Python with a library called&nbsp;
+                <a href="https://customtkinter.tomschimansky.com/" target="_blank" className={styles.link}>CustomTkinter</a>.
+            </span>
 
             <div className="d-flex flex-row justify-start align-center g1">
                 <Button primary section href="#projects" label="my projects" icon={<>
