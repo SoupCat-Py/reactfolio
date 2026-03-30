@@ -29,17 +29,19 @@
 .display-grid {display: grid;}
 
 /* spacing */
-.p0 {padding: 0;}
+.p0   {padding: 0;}
 .p025 {padding: 0.25rem;}
 .p025 {padding: 0.5rem;}
-.p1 {padding: 1rem;}
-.p2 {padding: 2rem;}
-.g0 {gap: 0;}
+.p075 {padding: 0.75rem;}
+.p1   {padding: 1rem;}
+.p2   {padding: 2rem;}
+.g0   {gap: 0;}
 .g025 {gap: 0.25rem;}
-.g5 {gap: 0.5rem;}
-.g1 {gap: 1rem;}
-.g2 {gap: 2rem;}
-.m0 {margin: 0;}
+.g075 {gap: 0.75rem;}
+.g05   {gap: 0.5rem;}
+.g1   {gap: 1rem;}
+.g2   {gap: 2rem;}
+.m0   {margin: 0;}
 
 /* fonts */
 h1, h2, .h1, .h2 {font-family: var(--font-header), "serif";}
@@ -69,38 +71,6 @@ p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
 .border-primary {border: 2px solid var(--primary);}
 .border-bg {border: 2px solid var(--bg);}
 
-/* buttons */
-.btn {
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: var(--size-small);
-    transition: all 200ms ease, transform 100ms ease;
-    width: max-content;
-    cursor: pointer;
-    font-weight: 600;
-}
-.btn-primary {
-    background-color: var(--primary);
-    color: var(--bg);
-    border: 2px solid var(--primary);
-    transform: scale(1);
-}
-.btn-primary:hover {
-    transform: scale(calc(0.67 * 1.67));
-}
-.btn-primary:active {
-    transform: scale(1);
-}
-.btn-norm {
-    background-color: var(--bg);
-    color: var(--primary);
-    border: 2px solid var(--primary);
-}
-.btn-norm:hover {
-    background-color: var(--primary);
-    color: var(--bg);
-    border: 2px solid var(--primary);
-}
-
 /* radii */
-.rounded-full {border-radius: 99vh;}
-.rounded-card {border-radius: var(--card-radius);}
+.radius-full {border-radius: 99vh;}
+.radius-card {border-radius: var(--card-radius);}
