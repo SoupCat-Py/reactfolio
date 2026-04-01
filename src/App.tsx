@@ -1,9 +1,11 @@
-import Hero from "./sections/hero.tsx";
+import Hero from "./sections/Hero.tsx";
+import sep1 from "./images/sep1.svg"
 
 export default function App() {
     return (
-        <div className="d-flex flex-col align-start justify-center">
+        <div className="d-flex flex-col g2">
             <Hero/>
+            <img src={sep1} alt="sep" />
         </div>
     )
 }
