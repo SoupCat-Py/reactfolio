@@ -1,0 +1,26 @@
+* {
+    --radius: calc(var(--card-radius) - 2px);
+    border-radius: var(--radius) var(--radius) 0 0 ;
+}
+.title {
+    padding-top: 1rem;
+    width: 100%;
+    height: calc(100% - 1rem);
+    text-align: center;
+    background: linear-gradient(
+            180deg,
+            rgba(21, 36, 53, 1) 0%,
+            rgba(21, 36, 53, 1) 10%,
+            rgba(21, 36, 53, 0) 50%,
+            rgba(21, 36, 53, 0) 100%
+    );
+}
+.image {
+    width: 35vw;
+    border-bottom: 2px solid var(--primary);
+    object-fit: cover;
+    object-position: top;
+}
+.desc {
+    max-inline-size: 30vw;
+}

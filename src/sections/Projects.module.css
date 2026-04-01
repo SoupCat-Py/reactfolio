@@ -1,0 +1,9 @@
+.main {
+    gap: 6rem;
+    padding: 2rem 0 4rem 0
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}

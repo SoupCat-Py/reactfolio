@@ -8,6 +8,7 @@
 
     --size-h1: 60px;
     --size-h2: 42px;
+    --size-h3: 32px;
     --size-body: 18px;
     --size-small: 12px;
 
@@ -21,8 +22,13 @@
 /** {*/
 /*    background-color: rgba(0, 100, 150, 0.1) !important;*/
 /*}*/
+* {
+    scroll-behavior: smooth;
+}
 
 /* layout */
+.rel {position: relative;}
+.abs {position: absolute;}
 .d-flex {display: flex;}
 .flex-col {flex-direction: column;}
 .flex-row {flex-direction: row;}
@@ -45,13 +51,13 @@
 .g0   {gap: 0;}
 .g025 {gap: 0.25rem;}
 .g075 {gap: 0.75rem;}
-.g05   {gap: 0.5rem;}
+.g05  {gap: 0.5rem;}
 .g1   {gap: 1rem;}
 .g2   {gap: 2rem;}
 .m0   {margin: 0;}
 
 /* fonts */
-h1, h2, .h1, .h2 {font-family: var(--font-header), "serif";}
+h1, h2, h3, .h1, .h2, .h3 {font-family: var(--font-header), "serif";}
 h1, .h1 {
     font-size: var(--size-h1);
     font-weight: 700;
@@ -60,6 +66,10 @@ h1, .h1 {
 h2, .h2 {
     font-size: var(--size-h2);
     font-variation-settings: "wdth" 125;
+}
+h3, .h3 {
+    font-size: var(--size-h3);
+    font-variation-settings: "wdth" 90;
 }
 p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
 .body {
@@ -92,7 +102,6 @@ p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
     transition: all 200ms ease, transform 100ms ease;
     width: max-content;
     cursor: pointer;
-    font-weight: 600;
     border-radius: 99rem;
 }
 .btn img {
