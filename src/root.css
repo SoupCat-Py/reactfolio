@@ -93,6 +93,7 @@ p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
 /* misc */
 .radius-full {border-radius: 99vh;}
 .radius-card {border-radius: var(--card-radius);}
+.radius-none {border-radius: 0;}
 .nodeco {text-decoration: none;}
 
 /* buttons */
@@ -103,9 +104,6 @@ p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
     width: max-content;
     cursor: pointer;
     border-radius: 99rem;
-}
-.btn img {
-    height: var(--size-body);
 }
 .btn-primary {
     background-color: var(--primary);
