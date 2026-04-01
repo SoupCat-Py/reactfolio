@@ -17,6 +17,11 @@
     --font-body: "Sora";
 }
 
+/* debugging */
+/** {*/
+/*    background-color: rgba(0, 100, 150, 0.1) !important;*/
+/*}*/
+
 /* layout */
 .d-flex {display: flex;}
 .flex-col {flex-direction: column;}
@@ -36,6 +41,7 @@
 .p075 {padding: 0.75rem;}
 .p1   {padding: 1rem;}
 .p2   {padding: 2rem;}
+.p3   {padding: 3rem;}
 .g0   {gap: 0;}
 .g025 {gap: 0.25rem;}
 .g075 {gap: 0.75rem;}
