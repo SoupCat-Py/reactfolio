@@ -23,6 +23,13 @@ export default function Projects () {
                     link="zshcheatsheet.vercel.app"
                     repo="SoupCat-Py/codesheet2"
                 />
+                <ProjectCard
+                    title="PassGen"
+                    description="A small yet customizable password generator."
+                    image="passgen-web"
+                    link="soup-passgen.netlify.app"
+                    repo="SoupCat-Py/passgen-web"
+                />
             </div>
         </section>
     )
