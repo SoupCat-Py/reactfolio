@@ -20,10 +20,14 @@
 
 /* debugging */
 /** {*/
-/*    background-color: rgba(0, 100, 150, 0.1) !important;*/
+/*    background-color: rgba(100, 0, 0, 0.1) !important;*/
 /*}*/
 * {
     scroll-behavior: smooth;
+}
+*::selection {
+    background-color: var(--primary);
+    color: var(--bg);
 }
 
 /* layout */
