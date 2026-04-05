@@ -1,4 +1,7 @@
-* {
+.container {
+    width: 450px;
+}
+.topRounded {
     --radius: calc(var(--card-radius) - 2px);
     border-radius: var(--radius) var(--radius) 0 0 ;
 }
@@ -16,11 +19,8 @@
     );
 }
 .image {
-    width: 35vw;
+    width: 100%;
     border-bottom: 2px solid var(--primary);
     object-fit: cover;
     object-position: top;
-}
-.desc {
-    max-inline-size: 30vw;
 }
