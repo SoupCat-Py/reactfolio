@@ -11,7 +11,7 @@ export default function Projects () {
             <div className={`d-flex flex-row justify-center p2 ${styles.wrapper}`}>
                 <ProjectCard
                     title="NMS Leyline Calculator"
-                    description="A web-based tool to find 3-star deposits in No Man's Sky."
+                    description={<p>This little tool for No Man's Sky was my first real website. I made this one with raw HTML, CSS, and JavaScript, and I will admit that the code is very messy.<br></br>Anyway, I got some help from the No Man's Sky community <i>(they taught me about leylines and helped with translations)</i> to make a simple calculator that helps find 3-star deposits in the game :D</p>}
                     image="nmslc"
                     link="nmscd.com/leylinecalc"
                     repo="nmscd/leylinecalc"
