@@ -4,8 +4,12 @@ import Button from "../components/Button.tsx";
 
 export default function Hero() {
     return (
-        // main thing
-        <section className={`bg-bg d-flex flex-col align-start justify-start g2 ${styles.container}`}>
+        // empty wrapper so the svg can live outside the main content
+        <>
+        {/* this is where the main content is */}
+        <section className={`d-flex flex-col align-start justify-start g2 zmax ${styles.container}`}>
+
+            {/* the big header and image */}
             <div className="d-flex flex-row align-center justify-center g2">
                 <img src={pfp} alt="me" className={`border-light bg-light ${styles.image}`}/>
                 <div className="d-flex flex-col align-start justify-center">
@@ -14,13 +18,15 @@ export default function Hero() {
                 </div>
             </div>
 
-            <span className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school student, currently learning frontend web development with&nbsp;
+            {/* the bio text */}
+            <p className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school student, currently learning frontend web development with&nbsp;
                 <a href="https://react.dev" target="_blank" className={styles.link}>React</a>.
                 Before this, I used to make simple desktop apps in Python with a library called&nbsp;
                 <a href="https://customtkinter.tomschimansky.com/" target="_blank" className={styles.link}>CustomTkinter</a>.
                 Oh also, I (technically) use Arch btw :)
-            </span>
+            </p>
 
+            {/* the buttons */}
             <div className="d-flex flex-row justify-start align-center g1">
                 <Button primary href="#projects" local label="my projects" icon={<>
                     <path d="M5 12l14 0"/>
@@ -39,7 +45,13 @@ export default function Hero() {
                 </>}
                 />
             </div>
-
         </section>
-    )
+
+        {/* maple leaf */}
+        <svg xmlns="http://www.w3.org/2000/svg" width="650" height="650" viewBox="-2015 -2000 4030 4030" className={`abs ${styles.maple}`}>
+            <title>CANADA YAY</title>
+            <path fill="#1D2C3E" d="m-90 2030 45-863a95 95 0 0 0-111-98l-859 151 116-320a65 65 0 0 0-20-73l-941-762 212-99a65 65 0 0 0 34-79l-186-572 542 115a65 65 0 0 0 73-38l105-247 423 454a65 65 0 0 0 111-57l-204-1052 327 189a65 65 0 0 0 91-27l332-652 332 652a65 65 0 0 0 91 27l327-189-204 1052a65 65 0 0 0 111 57l423-454 105 247a65 65 0 0 0 73 38l542-115-186 572a65 65 0 0 0 34 79l212 99-941 762a65 65 0 0 0-20 73l116 320-859-151a95 95 0 0 0-111 98l45 863z"/>
+        </svg>
+
+    </>)
 }

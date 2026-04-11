@@ -7,9 +7,9 @@ export default function App() {
     return (
         <div className="d-flex flex-col g2">
             <Hero/>
-            <img src={sep1} alt="sep" />
+            <img src={sep1} alt="sep" className="zmax"/>
             <Projects/>
-            <img src={sep2} alt="sep" />
+            <img src={sep2} alt="sep" className="zmax"/>
         </div>
     )
 }
