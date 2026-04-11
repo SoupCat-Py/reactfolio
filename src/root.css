@@ -75,13 +75,15 @@ h3, .h3 {
     font-size: var(--size-h3);
     font-variation-settings: "wdth" 90;
 }
-p, button, .btn, .body, .small {font-family: var(--font-body), "sans-serif";}
-.body {
-    font-size: var(--size-body);
+p {
+    margin: 0;
+    line-height: 2rem;
 }
-.small {
-    font-size: var(--size-small);
-}
+br { margin-bottom: 0.5rem; }
+p, button, .btn, .body, .small { font-family: var(--font-body), "sans-serif"; }
+.body { font-size: var(--size-body); }
+.small { font-size: var(--size-small); }
+i { font-weight: 250; }
 
 /* colors */
 .bg-bg {background-color: var(--bg);}
