@@ -1,9 +1,10 @@
 import Button from "./Button.tsx";
 import styles from "./ProjectCard.module.css";
+import type { ReactNode } from "react";
 
 type ProjectCardProps = {
     title: string;
-    description: string;
+    description: ReactNode;
     image: string;
     link: string;
     repo: string;
