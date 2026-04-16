@@ -18,7 +18,7 @@ export default function Projects () {
                 />
                 <ProjectCard
                     title="Zsh Cheat Sheet"
-                    description="A simple reference to all the most common zshell commands."
+                    description="A simple reference to all the most common zshell commands. [mention dark/light mode]"
                     image="zshcheatsheet"
                     link="zshcheatsheet.vercel.app"
                     repo="SoupCat-Py/codesheet2"

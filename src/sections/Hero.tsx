@@ -23,7 +23,7 @@ export default function Hero() {
                 <a href="https://react.dev" target="_blank" className={styles.link}>React</a>.
                 Before this, I used to make simple desktop apps in Python with a library called&nbsp;
                 <a href="https://customtkinter.tomschimansky.com/" target="_blank" className={styles.link}>CustomTkinter</a>.
-                Oh also, I (technically) use Arch btw :)
+                Oh, and I (technically) use Arch btw :)
             </p>
 
             {/* the buttons */}
