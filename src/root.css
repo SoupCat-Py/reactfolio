@@ -87,6 +87,7 @@ p, button, .btn, .body, .small { font-family: var(--font-body), "sans-serif"; }
 i { font-weight: 250; }
 
 /* colors */
+.bg-none {background: none}
 .bg-bg {background-color: var(--bg);}
 .bg-light {background-color: var(--bg-light);}
 .bg-primary {background-color: var(--primary);}
