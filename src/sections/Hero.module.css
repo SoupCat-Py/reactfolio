@@ -1,5 +1,5 @@
 .container {
-    padding: 8rem 6rem 6rem 6rem
+    padding: 8rem 1rem 7rem 8rem;
 }
 .body {
     max-width: 800px;
@@ -21,8 +21,7 @@
     border-radius: 100%;
 }
 .maple {
-    z-index: 0;
-    right: 1rem;
+    z-index: -1;
+    right: 2rem;
     top: 20%;
-    transform: rotate(-20deg);
 }
