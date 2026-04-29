@@ -1,0 +1,5 @@
+.iconContainer {
+    aspect-ratio: 1;
+    place-content: center;
+    border-radius: 15px;
+}

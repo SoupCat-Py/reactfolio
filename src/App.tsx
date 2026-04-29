@@ -1,5 +1,6 @@
 import Hero from "./sections/Hero.tsx";
 import Projects from "./sections/Projects.tsx";
+import Contact from "./sections/Contact.tsx";
 
 export default function App() {
   return (
@@ -30,6 +31,8 @@ export default function App() {
         <path fill="#004f60" d="m0 20 14-1 12 2 17-2 15 5 17-2 12-2 13 2v8H0z"/>
         <path fill="#152435" d="m0 25 14-2 21-1 12 3 12-3 21 2 20-2v8H0z"/>
       </svg>
+
+      <Contact/>
 
     </div>
   )
