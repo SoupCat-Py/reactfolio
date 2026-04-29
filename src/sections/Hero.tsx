@@ -21,7 +21,7 @@ export default function Hero() {
             {/* the bio text */}
             <p className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school student, currently learning frontend web development with&nbsp;
                 <a href="https://react.dev" target="_blank" className={styles.link}>React</a>.
-                Before this, I used to dabble in simple desktop apps made with python Python amd a library called&nbsp;
+                Before this, I used to dabble in simple desktop apps made with Python and a library called&nbsp;
                 <a href="https://customtkinter.tomschimansky.com/" target="_blank" className={styles.link}>CustomTkinter</a>.
                 Oh, and I (technically) use Arch btw :)
             </p>
