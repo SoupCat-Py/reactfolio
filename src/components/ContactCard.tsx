@@ -17,7 +17,7 @@ export default function ContactCard({title, description, icon, link}: ContactCar
       className="nodeco">
 
       {/* this is the main container */}
-      <article className="border-primary radius-card d-flex flex-row align-center justify-start p1 g025">
+      <article className={`border-primary radius-card d-flex flex-row align-center justify-start p1 g025 ${styles.container}`}>
 
         {/* left side - icon */}
         <div className={`bg-light color-primary border-light d-flex align-center justify-center p05 ${styles.iconContainer}`}>
@@ -33,7 +33,7 @@ export default function ContactCard({title, description, icon, link}: ContactCar
 
         {/* right side - text */}
         <div className="d-flex flex-col justify-center align-start p1">
-          <p className="body color-primary m0 p0">{title}</p>
+          <p className={`body color-primary m0 p0 ${styles.title}`}>{title}</p>
           <p className="small color-text m0 p0">{description}</p>
         </div>
 

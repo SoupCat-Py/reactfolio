@@ -1,5 +1,22 @@
+.container {
+    transform: translateY(0);
+    box-shadow: none;
+    transition:
+            transform 200ms cubic-bezier(0.27, 1.00, 1.00, 1.00),
+            box-shadow 200ms;
+}
+.container:hover {
+    transform: translateY(-5%);
+    box-shadow: 0 4px 8px 0 hsl(from var(--bg) h s 10%);
+}
+
 .iconContainer {
     aspect-ratio: 1;
     place-content: center;
     border-radius: 15px;
+}
+.title {
+    font-family: var(--font-header), sans-serif;
+    font-variation-settings: "wdth" 130;
+    font-weight: 500;
 }
