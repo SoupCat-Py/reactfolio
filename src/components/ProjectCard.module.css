@@ -1,5 +1,7 @@
 .container {
     max-width: 600px;
+    min-width: 550px;
+    width: min-content;
 }
 .topRounded {
     --radius: calc(var(--card-radius) - 2px);
