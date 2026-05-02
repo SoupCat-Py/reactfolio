@@ -1,13 +1,13 @@
 .container {
     transform: translateY(0);
-    box-shadow: none;
+    box-shadow: 0 0 0 0 hsl(from var(--primary) h s 25%);
     transition:
             transform 200ms cubic-bezier(0.27, 1.00, 1.00, 1.00),
             box-shadow 200ms;
 }
 .container:hover {
-    transform: translateY(-5%);
-    box-shadow: 0 4px 8px 0 hsl(from var(--bg) h s 10%);
+    box-shadow: 0 5px 0 0 hsl(from var(--primary) h s 30%);
+    transform: translateY(-5px);
 }
 
 .iconContainer {

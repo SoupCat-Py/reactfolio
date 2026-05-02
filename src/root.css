@@ -118,13 +118,17 @@ i { font-weight: 250; }
     color: var(--bg);
     border: 2px solid var(--primary);
     transition: all 200ms cubic-bezier(0.00, 1.00, 0.83, 1.00);
-    transform: scale(1);
+    /*transform: scale(1);*/
+    transform: translateY(0);
+    box-shadow: 0 0 0 0 hsl(from var(--primary) h s 25%);
 
     /* this might make the animation smoother on chromium */
     -webkit-font-smoothing: subpixel-antialiased;
 }
 .btn-primary:hover {
-    transform: scale(calc(0.67 * 1.67));
+    /*transform: scale(calc(0.67 * 1.67));*/
+    transform: translateY(-4px);
+    box-shadow: 0 3px 0 0 hsl(from var(--primary) h s 25%);
 }
 .btn-primary:active {
     transform: scale(1);
