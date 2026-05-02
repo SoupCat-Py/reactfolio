@@ -11,7 +11,10 @@ export default function Hero() {
 
             {/* the big header and image */}
             <div className="d-flex flex-row align-center justify-center g2">
-                <img src={pfp} alt="me" className={`border-light bg-light ${styles.image}`}/>
+                <img
+                  src={pfp} alt="me"
+                  className={`border-light bg-light ${styles.image}`}
+                />
                 <div className="d-flex flex-col align-start justify-center">
                     <h1 className="color-primary m0">Hi I'm Soup</h1>
                     <h2 className="color-text m0">I make stuff</h2>
