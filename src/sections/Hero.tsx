@@ -1,8 +1,26 @@
 import pfp from "../images/pfp.png"
 import styles from "./Hero.module.css"
 import Button from "../components/Button.tsx";
+import { differenceInDays } from "date-fns";
+
+function GetGradDifference()  {
+    const bigDay = new Date(2026,5,5);  // June 5
+    const today = new Date();
+
+    if (today > bigDay) {
+        return "🎉 I Graduated!";
+    }
+    else {
+        const difference = differenceInDays(
+          new Date(bigDay.getFullYear(), bigDay.getMonth(), bigDay.getDate()),
+          new Date(today.getFullYear(), today.getMonth(), today.getDate())
+        );
+        return `🎓 Grad in ${difference} days!`;
+    }
+}
 
 export default function Hero() {
+
     return (
         // empty wrapper so the svg can live outside the main content
         <>
@@ -18,6 +36,9 @@ export default function Hero() {
                 <div className="d-flex flex-col align-start justify-center">
                     <h1 className="color-primary m0">Hi I'm Soup</h1>
                     <h2 className="color-text m0">I make stuff</h2>
+                    <span className={`bg-light small color-text d-flex flex-row g025 radius-card ${styles.countdown}`}>
+                        {GetGradDifference()}
+                    </span>
                 </div>
             </div>
 
