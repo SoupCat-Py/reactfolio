@@ -15,7 +15,7 @@ export default function ProjectCard({title, description, image, link, repo}: Pro
         <article className={`d-flex flex-col bg-bg border-primary radius-card ${styles.container}`}>
             <div className="d-flex flex-col align-start justify-center rel">
                 <h3 className={`color-primary m0 abs ${styles.title} ${styles.topRounded}`}>{title}</h3>
-                <img className={`${styles.topRounded} ${styles.image}`} src={`/src/images/${image}.png`} alt={image}/>
+                <img className={`${styles.topRounded} ${styles.image}`} src={`/src/images/${image}.webp`} alt={image}/>
             </div>
             <div className="d-flex flex-col align-start justify-start p2 g2">
                 <span className="body color-text">

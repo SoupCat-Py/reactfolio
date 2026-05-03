@@ -1,4 +1,4 @@
-import pfp from "../images/pfp.png"
+import pfp from "../images/pfp.webp"
 import styles from "./Hero.module.css"
 import Button from "../components/Button.tsx";
 import { differenceInDays } from "date-fns";
