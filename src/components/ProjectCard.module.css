@@ -1,6 +1,6 @@
 .container {
     max-width: 600px;
-    min-width: 550px;
+    min-width: 500px;
     width: min-content;
 }
 .topRounded {
