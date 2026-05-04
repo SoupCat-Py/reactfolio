@@ -1,0 +1,8 @@
+.link {
+    color: hsl(from var(--bg) h s 35%);
+    text-decoration: none;
+    transition: font-weight 200ms;
+}
+.link:hover {
+    font-weight: 700;
+}
