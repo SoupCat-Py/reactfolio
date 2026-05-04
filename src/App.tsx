@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero.tsx";
 import Projects from "./sections/Projects.tsx";
 import Contact from "./sections/Contact.tsx";
+import Footer from "./sections/Footer.tsx";
 import Separator from "./components/Separator.tsx";
 
 export default function App() {
@@ -36,6 +37,8 @@ export default function App() {
         <path fill="#65a657" d="m0 20 14-3 17 7 19-5 22 3 14-4 14 3v9H0z"/>
         <path fill="#dbc13b" d="m0 25 14-2 21-1 15 5 12-3 21 2 17-2v6H0z"/>
       </>}/>
+
+      <Footer/>
 
     </div>
   )
