@@ -1,3 +1,8 @@
+> [!important]
+> I found in [`package-lock.json`](package-lock.json) that one dependency is licensed under CC-BY-4.0 <br/>
+> Idk what to do so here's the link to [caniuse-lite's repository](https://github.com/browserslist/caniuse-lite?tab=CC-BY-4.0-1-ov-file)<br />
+> Everything else was under MIT, BSD, ISC, BlueOak-1.0.0, Apache-2.0, and Python-2.0
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
