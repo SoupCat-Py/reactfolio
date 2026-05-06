@@ -1,7 +1,10 @@
-> [!important]
-> I found in [`package-lock.json`](package-lock.json) that one dependency is licensed under CC-BY-4.0 <br/>
-> Idk what to do so here's the link to [caniuse-lite's repository](https://github.com/browserslist/caniuse-lite?tab=CC-BY-4.0-1-ov-file)<br />
-> Everything else was under MIT, BSD, ISC, BlueOak-1.0.0, Apache-2.0, and Python-2.0
+## Third-party licenses
+This project uses data from caniuse-lite, licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+https://github.com/browserslist/caniuse-lite<br/>
+https://creativecommons.org/licenses/by/4.0/
+
+---
 
 # React + TypeScript + Vite
 
