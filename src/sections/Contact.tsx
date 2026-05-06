@@ -1,12 +1,13 @@
 import ContactCard from "../components/ContactCard.tsx";
 import styles from "./Contact.module.css";
+import SectionStyles from "./SectionStyles.module.css"
 
 export default function Contact() {
   return (
-    <section className={`bg-bg d-flex flex-col align-center justify-start ${styles.main}`}>
+    <section className={`bg-bg d-flex flex-col align-center justify-start ${SectionStyles.main}`}>
       <div className="d-flex flex-col align-center justify-center g1">
         <h1 className="color-primary m0">Contact Me</h1>
-        <h3 className="color-text m0 header-wrap">Don't worry I won't bite 😛</h3>
+        <h3 className="color-text m0 header-wrap text-center">Don't worry I won't bite 😛</h3>
       </div>
       <div className={`g2 ${styles.container}`}>
         <ContactCard

@@ -1,6 +1,6 @@
 .container {
+    min-width: 300px;
     max-width: 600px;
-    min-width: 35vw;
 }
 .topRounded {
     --radius: calc(var(--card-radius) - 2px);
@@ -24,4 +24,10 @@
     border-bottom: 2px solid var(--primary);
     object-fit: cover;
     object-position: top;
+}
+
+@media (max-width: 500px) {
+    .container {
+        min-width: none;
+    }
 }

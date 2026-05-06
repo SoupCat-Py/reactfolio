@@ -39,6 +39,7 @@
 .justify-center {justify-content: center;}
 .justify-start {justify-content: flex-start;}
 .justify-end {justify-content: flex-end;}
+.text-center {text-align: center;}
 .align-center {align-items: center;}
 .align-start {align-items: flex-start}
 .align-end {align-items: flex-end;}

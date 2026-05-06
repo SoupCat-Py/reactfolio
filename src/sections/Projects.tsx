@@ -1,12 +1,13 @@
 import ProjectCard from "../components/ProjectCard.tsx";
 import styles from "./Projects.module.css";
+import SectionStyles from "./SectionStyles.module.css"
 
 export default function Projects() {
   return (
-    <section id="projects" className={`bg-bg d-flex flex-col align-center justify-start ${styles.main}`}>
+    <section id="projects" className={`bg-bg d-flex flex-col align-center justify-start ${SectionStyles.main}`}>
       <div className="d-flex flex-col align-center justify-center g1">
         <h1 className="color-primary m0">My Projects</h1>
-        <h3 className="color-text m0 header-wrap">All the stuff I've made! It's all open-source too :D</h3>
+        <h3 className="color-text m0 header-wrap text-center">All the stuff I've made! It's all open-source too :D</h3>
       </div>
       <div className={`d-flex flex-row justify-center p2 ${styles.wrapper}`}>
         <ProjectCard
