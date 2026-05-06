@@ -97,6 +97,10 @@ i { font-weight: 250; }
 .border-primary {border: 2px solid var(--primary);}
 .border-bg {border: 2px solid var(--bg);}
 .border-light {border: 2px solid var(--bg-border);}
+.inverse-select::selection {
+    background-color: var(--bg);
+    color: var(--primary);
+}
 
 /* misc */
 .radius-full {border-radius: 99vh;}

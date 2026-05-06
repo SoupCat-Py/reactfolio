@@ -2,13 +2,13 @@ import styles from "./Footer.module.css";
 import type { ReactNode } from "react";
 
 type LinkProps = {
-  href: string;
+  link: string;
   children: ReactNode;
 }
 
-const Link = ({href, children}: LinkProps) => {
+const Link = ({link, children}: LinkProps) => {
   return(
-    <a href={`https://${href}`} target="_blank" className={styles.link}>
+    <a href={`https://${link}`} target="_blank" className={styles.link}>
       {children}
     </a>
   )
@@ -16,22 +16,24 @@ const Link = ({href, children}: LinkProps) => {
 
 export default function Footer() {
   return (
-    <section className="bg-primary color-bg d-flex flex-col justify-start align-start p2 g1">
-      <h2 className="color-bg m0">Built by Soup</h2>
-      <div className="d-flex flex-col justify-start align-start g025">
-        <p>
+    <section className="bg-primary color-bg d-flex flex-col justify-start align-start p2">
+      <h2 className="m0 inverse-select">
+        Built by Soup
+      </h2>
+      <div className="d-flex flex-col justify-start align-start g025 p1">
+        <p className="inverse-select">
           Most icons from&nbsp;
-          <Link href="tabler.io/icons">Tabler</Link>
+          <Link link="tabler.io/icons">Tabler</Link>
           &nbsp;and&nbsp;
-          <Link href="svgrepo.com">SVG Repo</Link>
+          <Link link="svgrepo.com">SVG Repo</Link>
         </p>
-        <p>
+        <p className="inverse-select">
           Fonts from&nbsp;
-          <Link href="fonts.google.com">Google Fonts</Link>
+          <Link link="fonts.google.com">Google Fonts</Link>
         </p>
-        <p>
+        <p className="inverse-select">
           © 2026 Soup Cat -&nbsp;
-          <Link href="github.com/SoupCat-Py/reactfolio/">GitHub Repo</Link>
+          <Link link="github.com/SoupCat-Py/reactfolio/">GitHub Repo</Link>
         </p>
       </div>
     </section>
