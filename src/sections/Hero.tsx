@@ -1,4 +1,4 @@
-import pfp from "../../public/pfp.webp"
+
 import styles from "./Hero.module.css"
 import Button from "../components/Button.tsx";
 import { differenceInDays } from "date-fns";
@@ -30,7 +30,7 @@ export default function Hero() {
             {/* the big header and image */}
             <div className={`d-flex flex-row align-center justify-center g2 ${styles.headerGroup}`}>
                 <img
-                  src={pfp} alt="me"
+                  src="/pfp.webp" alt="me"
                   className={`border-light bg-light ${styles.image}`}
                 />
                 <div className="d-flex flex-col align-start justify-center">
