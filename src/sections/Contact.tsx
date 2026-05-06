@@ -6,7 +6,7 @@ export default function Contact() {
     <section className={`bg-bg d-flex flex-col align-center justify-start ${styles.main}`}>
       <div className="d-flex flex-col align-center justify-center g1">
         <h1 className="color-primary m0">Contact Me</h1>
-        <h3 className="color-text m0">Don't worry I won't bite 😛</h3>
+        <h3 className="color-text m0 header-wrap">Don't worry I won't bite 😛</h3>
       </div>
       <div className={`g2 ${styles.container}`}>
         <ContactCard

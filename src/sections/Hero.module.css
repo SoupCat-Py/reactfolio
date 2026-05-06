@@ -1,5 +1,5 @@
 .container {
-    padding: 8rem 1rem 7rem 8rem;
+    padding: 10vh 1rem 7rem 10vw;
 }
 .body {
     max-width: 800px;
@@ -29,4 +29,20 @@
     z-index: -1;
     right: 2rem;
     top: 20%;
+}
+
+@media (max-width: 800px) {
+    .maple {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .headerGroup {
+        flex-direction: column;
+        align-items: start;
+    }
+    .buttonsRow {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
 }
