@@ -1,5 +1,5 @@
 ## Third-party licenses
-This project uses data from caniuse-lite, licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0)
+This project uses data from caniuse-lite, licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0)
 
 https://github.com/browserslist/caniuse-lite<br/>
 https://creativecommons.org/licenses/by/4.0/
