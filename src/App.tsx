@@ -3,6 +3,7 @@ import Projects from "./sections/Projects.tsx";
 import Contact from "./sections/Contact.tsx";
 import Footer from "./sections/Footer.tsx";
 import Separator from "./components/Separator.tsx";
+import { Analytics } from "@vercel/analytics";
 
 export default function App() {
   return (
@@ -38,6 +39,8 @@ export default function App() {
       </>}/>
 
       <Footer/>
+
+      <Analytics/>
 
     </div>
   )
