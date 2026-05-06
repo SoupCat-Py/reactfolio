@@ -16,11 +16,11 @@ const Link = ({link, children}: LinkProps) => {
 
 export default function Footer() {
   return (
-    <section className="bg-primary color-bg d-flex flex-col justify-start align-start p2">
+    <section className="bg-primary color-bg d-flex flex-col justify-start align-start p2 g1">
       <h2 className="m0 inverse-select">
         Built by Soup
       </h2>
-      <div className="d-flex flex-col justify-start align-start g025 p1">
+      <div className="d-flex flex-col justify-start align-start g025">
         <p className="inverse-select">
           Most icons from&nbsp;
           <Link link="tabler.io/icons">Tabler</Link>
