@@ -1,6 +1,18 @@
 import ProjectCard from "../components/ProjectCard.tsx";
 import styles from "./Projects.module.css";
 import SectionStyles from "./SectionStyles.module.css"
+import type {ReactNode} from "react";
+
+type LinkProps = {
+  to: string;
+  children: ReactNode;
+}
+
+function Link({to, children}: LinkProps) {
+  return (
+    <a href={to} target="_blank" className="link">{children}</a>
+  )
+}
 
 export default function Projects() {
   return (
@@ -22,14 +34,20 @@ export default function Projects() {
         />
         <ProjectCard
           title="Zsh Cheat Sheet"
-          description="A simple reference to all the most common zshell commands. [mention dark/light mode]"
+          description={<p>As someone who often forgets how commands like grep work, I found it pretty useful to make
+            a little cheat sheet to quickly reference the most common commands I use. This was also my first time
+            implementing a dark/light mode switcher and I'm quite proud of it!<br></br>I took some inspiration from&nbsp;
+            <Link to="https://github.com/refact0r">refact0r's </Link>
+            <Link to="https://betterdiscord.app/theme/midnight">Midnight theme </Link>
+            for BetterDiscord.</p>}
           image="zshcheatsheet"
           link="zshcheatsheet.vercel.app"
           repo="SoupCat-Py/codesheet2"
         />
         <ProjectCard
           title="PassGen"
-          description="A small yet customizable password generator."
+          description="I lowkey just wanted to make a password generator. This one lets you choose exactly what kinds
+            of characters are in your password, and I made some neat animations for it."
           image="passgen-web"
           link="soup-passgen.netlify.app"
           repo="SoupCat-Py/passgen-web"
