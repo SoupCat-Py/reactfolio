@@ -36,7 +36,7 @@ export default function Hero() {
                 <div className="d-flex flex-col align-start justify-center">
                     <h1 className="color-primary m0">Hi I'm Soup</h1>
                     <h2 className="color-text m0">I make stuff</h2>
-                    <span className={`bg-light small color-text d-flex flex-row g025 radius-card ${styles.countdown}`}>
+                    <span className={`bg-light color-text small d-flex flex-row g025 radius-card ${styles.countdown}`}>
                         {GetGradDifference()}
                     </span>
                 </div>
