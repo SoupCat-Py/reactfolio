@@ -14,7 +14,7 @@ function GetGradDifference()  {
           new Date(bigDay.getFullYear(), bigDay.getMonth(), bigDay.getDate()),
           new Date(today.getFullYear(), today.getMonth(), today.getDate())
         );
-        return `🎓 Grad in ${difference} days!`;
+        return `🎓 Grad in ${difference} day${difference > 1? "s!" : "!"}`;
     }
 }
 
