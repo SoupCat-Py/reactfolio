@@ -33,8 +33,7 @@ export default function Contact() {
         <ContactCard
           title="Discord"
           description="soupcat.tsx"
-          // USE THIS LINK IN ALL FUTURE PROJECTS or come back to update it
-          link="https://discord.gg/aGfNH6Fb"
+          link="https://discord.com/users/974108638589386823"
           icon={<>
             <path d="M18.894 4.344A17.4 17.4 0 0 0 14.532 3c-.192.33-.406.779-.555 1.13a16.7 16.7 0 0 0-4.833 0c-.15-.351-.373-.8-.555-1.13a17.2 17.2 0 0 0-4.363 1.344C1.463 8.419.716 12.397 1.09 16.323A17.8 17.8 0 0 0 6.435 19a13 13 0 0 0 1.14-1.845 11 11 0 0 1-1.802-.864 7 7 0 0 0 .438-.342c3.477 1.59 7.243 1.59 10.678 0 .15.118.288.235.437.342a11 11 0 0 1-1.802.864A13 13 0 0 0 16.665 19a17.7 17.7 0 0 0 5.345-2.677c.459-4.544-.726-8.491-3.116-11.979"/>
             <ellipse fill="CurrentColor" cx="8.25" cy="11.5" rx="0.7" ry="1.1"/>
