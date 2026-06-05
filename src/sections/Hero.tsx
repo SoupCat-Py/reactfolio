@@ -29,7 +29,7 @@ export default function Hero() {
             {/* the big header and image */}
             <div className={`d-flex flex-row align-center justify-center g2 ${styles.headerGroup}`}>
                 <img
-                  src="/pfp.webp" alt="me"
+                  src="/pfp-grad.png" alt="me"
                   className={`border-light bg-light ${styles.image}`}
                 />
                 <div className="d-flex flex-col align-start justify-center">
