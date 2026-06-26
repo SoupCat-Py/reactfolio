@@ -1,22 +1,22 @@
 import styles from "./Hero.module.css"
 import Button from "../components/Button.tsx";
-import { differenceInDays } from "date-fns";
 
-function GetGradDifference()  {
-    const bigDay = new Date(2026,5,5);  // June 5
-    const today = new Date();
-
-    if (today > bigDay) {
-        return "🎉 I Graduated!";
-    }
-    else {
-        const difference = differenceInDays(
-          new Date(bigDay.getFullYear(), bigDay.getMonth(), bigDay.getDate()),
-          new Date(today.getFullYear(), today.getMonth(), today.getDate())
-        );
-        return `🎓 Grad in ${difference} day${difference > 1? "s!" : "!"}`;
-    }
-}
+// import { differenceInDays } from "date-fns";
+// function GetGradDifference()  {
+//     const bigDay = new Date(2026,5,5);  // June 5
+//     const today = new Date();
+//
+//     if (today > bigDay) {
+//         return "🎉 I Graduated!";
+//     }
+//     else {
+//         const difference = differenceInDays(
+//           new Date(bigDay.getFullYear(), bigDay.getMonth(), bigDay.getDate()),
+//           new Date(today.getFullYear(), today.getMonth(), today.getDate())
+//         );
+//         return `🎓 Grad in ${difference} day${difference > 1? "s!" : "!"}`;
+//     }
+// }
 
 export default function Hero() {
 
@@ -29,20 +29,17 @@ export default function Hero() {
             {/* the big header and image */}
             <div className={`d-flex flex-row align-center justify-center g2 ${styles.headerGroup}`}>
                 <img
-                  src="/pfp-grad.png" alt="me"
+                  src="/pfp.webp" alt="me"
                   className={`border-light bg-light ${styles.image}`}
                 />
                 <div className="d-flex flex-col align-start justify-center">
                     <h1 className="color-primary m0">Hi I'm Soup</h1>
                     <h2 className="color-text m0">I make stuff</h2>
-                    <span className={`bg-light color-text small d-flex flex-row g025 radius-card ${styles.countdown}`}>
-                        {GetGradDifference()}
-                    </span>
                 </div>
             </div>
 
             {/* the bio text */}
-            <p className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school student, currently learning frontend web development with&nbsp;
+            <p className={`body color-text ${styles.body}`}>Hello! I'm a Canadian high school graduate (going into Engineering in the fall), currently learning frontend web development with&nbsp;
                 <a href="https://react.dev" target="_blank" className="link">React</a>.
                 Before this, I used to dabble in simple desktop apps made with Python and a library called&nbsp;
                 <a href="https://customtkinter.tomschimansky.com/" target="_blank" className="link">CustomTkinter</a>.
