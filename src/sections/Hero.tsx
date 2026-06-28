@@ -59,7 +59,7 @@ export default function Hero() {
                 <div className="d-flex flex-row g1">
                     <Button href="https://github.com/SoupCat-Py" icon={<path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/>}/>
                     <Button href="mailto:soupcat.py@gmail.com" icon={<><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/></>}/>
-                    <Button href="makerworld.com" icon={<>
+                    <Button href="https://makerworld.com/en/@elsoupo/upload" icon={<>
                         {/* my custom SVG yay :D */}
                         <path d="m2,5  l5,-2 l5,2 l5,-2 l5,2  l0,14  l-5,2 l-5,-2 l-5,2 l-5,-2  l0,-14 z" />
                         <path d="m2,12  l5 -2 l10,4 l5,-2  l-5,-2 l-10,4 l-5,-2 z" />
