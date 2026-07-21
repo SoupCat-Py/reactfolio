@@ -23,6 +23,22 @@ export default function Projects() {
       </div>
       <div className={`d-flex flex-row justify-center p2 ${styles.wrapper}`}>
         <ProjectCard
+            title={"Questionable"}
+            description={<p>This game is kind of a mishmash of chameleon and the "guess who's lying" challenges from&nbsp;
+              <Link to="https://youtube.com/@FullSquad">Full Squad YouTube channel</Link>.
+              It's like the challenges they do but instead of someone deciding the questions, everyone can play together :D
+              <br></br>
+              I spent a LONG time designing the style and interface for this and ended up speed-building most of the game at
+              my friend's cabin so we could play that weekend.
+              <br></br>
+              Oh also this is the first thing I've made with Tailwind CSS!
+              <i>(It's best played on a phone so you can pass it around)</i>
+              </p>}
+            image={"questionable"}
+            link={"thequestionablegame.vercel.app"}
+            repo={"SoupCat-Py/impostor-game"}
+        />
+        <ProjectCard
           title="NMS Leyline Calculator"
           description={<p>This little tool for No Man's Sky was my first real website. I made this one with raw HTML,
             CSS, and JavaScript, and I will admit that the code is very messy.<br></br>Anyway, I got some help from the
